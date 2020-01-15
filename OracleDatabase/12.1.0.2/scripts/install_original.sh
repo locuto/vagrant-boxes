@@ -57,7 +57,7 @@ echo 'INSTALLER: Environment variables set'
 
 case "$ORACLE_EDITION" in
   "EE")
-    unzip '/vagrant/p21419221_121020_Linux-x86-64_?of2.zip' -d /tmp
+    unzip '/vagrant/linuxamd64_12102_database_?of2.zip' -d /tmp
     ;;
   "SE2")
     unzip '/vagrant/linuxamd64_12102_database_se2_?of2.zip' -d /tmp
